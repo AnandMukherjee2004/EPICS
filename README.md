@@ -34,5 +34,5 @@ An intelligent web-based platform that enables users to test water quality, chec
 - **AI Chat:** Google Gemini API (Gemini 1.5 Pro)  
 - **Data Visualization:** Recharts / Chart.js  
 - **API Integration:** Custom Water Quality Analysis API  
-- **Hosting:** Vercel / Netlify / Render / Firebase (as applicable)
+- **Hosting:** Vercel 
 
