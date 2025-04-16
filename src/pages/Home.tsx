@@ -7,17 +7,20 @@ const Home = () => {
     {
       title: "Understanding Water Quality Parameters",
       image: "https://images.unsplash.com/photo-1527066579998-dbbae57f45ce?auto=format&fit=crop&q=80&w=800",
-      excerpt: "Learn about the key parameters that determine water quality and their importance for human health."
+      excerpt: "Learn about the key parameters that determine water quality and their importance for human health.",
+      link: "https://www.intechopen.com/chapters/69568"
     },
     {
       title: "Global Water Crisis: A Deep Dive",
       image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80&w=800",
-      excerpt: "Exploring the current state of water quality worldwide and its impact on communities."
+      excerpt: "Exploring the current state of water quality worldwide and its impact on communities.",
+      link: "https://vocal.media/earth/the-looming-thirst-a-deep-dive-into-the-global-water-crisis"
     },
     {
       title: "Water Treatment Technologies",
       image: "https://images.unsplash.com/photo-1617895153857-82fe79adfcd4?auto=format&fit=crop&q=80&w=800",
-      excerpt: "Discover modern technologies and methods used in water treatment and purification."
+      excerpt: "Discover modern technologies and methods used in water treatment and purification.",
+      link: "https://www.aquatechtrade.com/news/water-treatment/water-treatment-essential-guide"
     }
   ];
 
@@ -37,13 +40,13 @@ const Home = () => {
 
       <div className="grid md:grid-cols-3 gap-8 mt-12">
         {articles.map((article, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+          <Link to={article.link} key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <img src={article.image} alt={article.title} className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">{article.title}</h3>
               <p className="text-gray-600">{article.excerpt}</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
