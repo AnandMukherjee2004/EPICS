@@ -6,19 +6,19 @@ const Home = () => {
   const articles = [
     {
       title: "Understanding Water Quality Parameters",
-      image: "https://images.unsplash.com/photo-1527066579998-dbbae57f45ce?auto=format&fit=crop&q=80&w=800",
+      image: "https://sinay.ai/wp-content/uploads/2021/05/Sensor-water-1.jpg",
       excerpt: "Learn about the key parameters that determine water quality and their importance for human health.",
       link: "https://www.intechopen.com/chapters/69568"
     },
     {
       title: "Global Water Crisis: A Deep Dive",
-      image: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&q=80&w=800",
+      image: "https://www.seametrics.com/wp-content/uploads/2014/09/global-water-crisis.jpg",
       excerpt: "Exploring the current state of water quality worldwide and its impact on communities.",
       link: "https://vocal.media/earth/the-looming-thirst-a-deep-dive-into-the-global-water-crisis"
     },
     {
       title: "Water Treatment Technologies",
-      image: "https://images.unsplash.com/photo-1617895153857-82fe79adfcd4?auto=format&fit=crop&q=80&w=800",
+      image: "https://carewater.solutions/wp-content/uploads/2021/10/%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7_%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9_%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-1.jpg",
       excerpt: "Discover modern technologies and methods used in water treatment and purification.",
       link: "https://www.aquatechtrade.com/news/water-treatment/water-treatment-essential-guide"
     }
